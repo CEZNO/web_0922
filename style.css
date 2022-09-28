@@ -17,9 +17,17 @@ width: 80px;
 margin: 0px;
 padding: 20px;
 padding-left: 38px;
-
 }
 
 #article {
 padding-left: 25px;
+}
+
+@media(max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  #grid ol, h1 {
+    border: none;
+  }
 }
